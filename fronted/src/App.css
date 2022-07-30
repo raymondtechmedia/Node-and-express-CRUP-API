@@ -1,0 +1,63 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50px;
+  background-color: lightgray;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: lighter;
+}
+
+.main{
+  min-height: 100vh;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  margin-left:200px ;
+}
+.main-form{
+  display: flex;
+  flex-direction: column;
+}
+
+.main-form > .form-field > input[type=text]{
+     width: 300px;
+     padding: 8px 10px;
+     margin: 5px;
+   color: #222;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+label{
+  width: 150px;
+  display: inline-flex;
+  color: white;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  padding:8px 10px ;
+  width: 80px;
+  cursor: pointer;
+  margin-left: 155px;
+}
+.datalist{
+  background-color: #333;
+}
+li ,p{
+  list-style: none;
+  color: #fff;
+  margin: 5px;
+}
